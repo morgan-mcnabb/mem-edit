@@ -1,0 +1,8 @@
+[package]
+name = "mem_edit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tasklist = "0.2.15"
+windows-sys = {version = "0.59.0", features = ["Win32_UI_WindowsAndMessaging"]}
